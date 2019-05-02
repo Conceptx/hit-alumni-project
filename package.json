@@ -1,0 +1,32 @@
+{
+	"name": "hit-alumni-project",
+	"version": "1.0.0",
+	"description": "linkedin look alike project for Harare Institute of Technology Alumni students",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"start": "node index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Conceptx/hit-alumni-project.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Conceptx/hit-alumni-project/issues"
+	},
+	"homepage": "https://github.com/Conceptx/hit-alumni-project#readme",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^7.0.0",
+		"ejs": "^2.6.1",
+		"express": "^4.16.4",
+		"express-fileupload": "^0.1.4",
+		"morgan": "^1.9.1",
+		"parse-dashboard": "^1.3.0",
+		"parse-server": "^3.3.0"
+	}
+}
